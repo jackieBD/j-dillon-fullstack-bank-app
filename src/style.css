@@ -4,13 +4,13 @@
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
-/* } */
+  -moz-osx-font-smoothing: grayscale;
+}
 
-/* code {
+code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-} */
+}
 
 body {
   background-color: paleturquoise
@@ -32,8 +32,7 @@ nav.navbar{
   padding: 24px;
   width: 350px;
   margin: 20px;
-  border: 1px #3A3641 solid;
-  background-color: #F8F9FA;
+  border: 1px #3A3641 solid
 
 }
 
@@ -55,4 +54,4 @@ nav.navbar{
   margin-left: 10px;
   border: none;
   border-radius: 4px;
-}
+} */
