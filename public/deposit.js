@@ -38,7 +38,7 @@ function DepositForm(props){
     .then(text => {
         try {
             const data = JSON.parse(text);
-            props.setStatus(`Current Balance: $${data.value.balance}`);
+            props.setStatus(`Current Balance: $${parseInt(data.value.balance) + parseInt(amount)}`);
             props.setShow(false);
             console.log('JSON:', data);
         } catch(err) {
