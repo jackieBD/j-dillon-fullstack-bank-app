@@ -1,4 +1,4 @@
-export default function AllData(){
+function AllData(){
     const [data, setData] = React.useState('');    
 
     React.useEffect(() => {

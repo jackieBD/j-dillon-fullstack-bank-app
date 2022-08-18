@@ -99,6 +99,6 @@ app.get('/account/all', function (req, res) {
 });
 
 
-var port = 3000;
-app.listen(port || process.env.PORT);
-console.log('Running on port:' + port)
+// var port = 3001;
+app.listen(process.env.PORT);
+// console.log('Running on port:' + port)
