@@ -9,6 +9,7 @@ module.exports = function override(config, env) {
         https: require.resolve('https-browserify'),
         os: require.resolve('os-browserify/browser'),
         buffer: require.resolve('buffer'),
+        mongodb: require.resolve('mongodb'),
         stream: require.resolve('stream-browserify'),
     };
     config.plugins.push(
